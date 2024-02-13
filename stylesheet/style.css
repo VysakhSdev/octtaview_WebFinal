@@ -1002,6 +1002,8 @@ ul.box-account li.sign-in:before {
 		height: 200px;
 		background: url('../images/368.png') ;
 		background-repeat: no-repeat;
+		background-size: cover;
+
 	
 
 		
