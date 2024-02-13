@@ -977,6 +977,12 @@ ul.box-account li.sign-in:before {
 	position: relative;
 	background: url('../images/slides/bannerpic.jpg') center center;
 }
+.page-title-banner{
+	height: 700px;
+	position: relative;
+	background: url('../images/bannermain.png') center center;
+	background-size: cover;
+}
 
 .page-title.style1 {
 	background-image: url('../images/parallax/04.jpg');
