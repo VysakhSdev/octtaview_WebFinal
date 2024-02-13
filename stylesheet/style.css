@@ -567,7 +567,7 @@ ul.box-account li.sign-in:before {
 /* Header 
 ---------------------------------------------------------------*/
 .header {
-	position: relative;
+	position: sticky;
 	background-color: #ffffff;	
 	-webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
@@ -582,7 +582,7 @@ ul.box-account li.sign-in:before {
 }
 
 #header.fixed-header {
-	position: fixed;
+	position: sticky;
 	left: 0;
 	top: 0;
 	z-index: 1005;
@@ -958,7 +958,7 @@ ul.box-account li.sign-in:before {
 }
 
 .btn-submenu:before {
-   content: "\f107";
+
    color: #fff;
 }
 
@@ -977,12 +977,26 @@ ul.box-account li.sign-in:before {
 	position: relative;
 	background: url('../images/slides/bannerpic.jpg') center center;
 }
-.page-title-banner{
-	height: 700px;
-	position: relative;
-	background: url('../images/bannermain.png') center center;
-	background-size: cover;
+.page-title-banner {
+    height: 700px;
+    background: url('../images/bannermain.png') center center;
+    background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
 }
+
+@media (max-width: 767px) {
+    .page-title-banner {
+        height: 400px; /* Adjust the height for better visibility on smaller screens */
+        width: 150%; /* Adjust the width to fill the viewport on smaller screens */
+		background-size: cover;
+		background-position: center;
+		
+
+    }
+}
+
 
 .page-title.style1 {
 	background-image: url('../images/parallax/04.jpg');
