@@ -978,8 +978,8 @@ ul.box-account li.sign-in:before {
 	background: url('../images/slides/bannerpic.jpg') center center;
 }
 .page-title-banner {
-    height: 700px;
-    background: url('../images/bannermain.png') center center;
+    height: 900px;
+    background: url('../images/normal.jpg')  center center ;
     background-size: cover;
 	background-position: center;
     background-repeat: no-repeat;
@@ -988,10 +988,22 @@ ul.box-account li.sign-in:before {
 
 @media (max-width: 767px) {
     .page-title-banner {
-        height: 400px; /* Adjust the height for better visibility on smaller screens */
-        width: 150%; /* Adjust the width to fill the viewport on smaller screens */
+		height: 400px;
 		background-size: cover;
-		background-position: center;
+
+		background: url('../images/687.png') ;
+		background-repeat: no-repeat;
+
+
+    }
+}
+@media (max-width: 375px) {
+    .page-title-banner {
+		height: 200px;
+		background: url('../images/368.png') ;
+		background-repeat: no-repeat;
+	
+
 		
 
     }
